@@ -15,7 +15,7 @@ which includes sourcing and credits information as to the original source and th
 	* Capitalizing the first letter
 	* Prepending Avg in front of the the modified feature name
 	* it was felt that this would retain the maximum clarity and alignment with the original feature names while also being easily employed by all R column name indexing modes.
-4. Given the requirement to display only those measurements which represented either a mean or standard deviation, after performing an examination of the feature names, we filtered on unique feature number (__V1__) occurances of the following specific strings:
+4. Given the requirement to display only those measurements which represented either a mean or standard deviation, after performing an examination of the feature names (__V2__), we filtered on unique feature number (__V1__) occurances of the following specific strings:
 	*  mean()
 	*  std()
 	*  meanFreq
