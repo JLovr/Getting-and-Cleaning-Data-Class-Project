@@ -10,7 +10,7 @@ which includes sourcing and credits information as to the original source and th
 ### Script - run_analysis.R - General thoughts
 1. Specific care was taken maximize clarity and ease debugging and testing throughout the script.
 2. It was decided that relying on the column names for filtering purposes was the best plan of attack, given the available descriptive information.
-3. Column names for final output file for the measurements were constructed from the soure names in the features.txt by:
+3. Column names for final output file for the measurements were constructed from the source names in the features.txt by:
 	* Removing non-alphanumeric characters
 	* Capitalizing the first letter
 	* Prepending Avg in front of the the modified feature name
