@@ -31,7 +31,7 @@ which includes sourcing and credits information as to the original source and th
    * Employed a variable, __k1__ to retain a list of these column names for later column name processing
 5. Column bound the Subject, TestCode and measurement data into a testing and training data sets
 6. Row bound the two datasets together into a single dataset.
-7. Appended a column name containing the Activity name corresponding every row's Test Code.
+7. Appended a column name containing the Activity name corresponding to every row's Test Code.
 8. Filtered data columns based on feature table Names per search criteria outlined in previous section.
 9. Sorted selected columns to retain original Feature naming sequence.
 10. Created filtering vector
