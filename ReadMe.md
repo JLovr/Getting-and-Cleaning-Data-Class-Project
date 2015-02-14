@@ -20,14 +20,14 @@ which includes sourcing and credits information as to the original source and th
 	*  std()
 	*  meanFreq
 	*  gravityMean
-5.  Given the there was an exact correlation between the Test Code and the Activity name and the requirement to employ Activity names, and that the required fields for the final output file were to be only the average mean and standard deviations, averaged by Activity and Subject, the Test Code field was removed as extraneous.
+5.  Given the there was an exact correlation between the TestCode and the Activity name and the requirement to employ Activity names, and that the required fields for the final output file were to be only the average mean and standard deviations, averaged by Activity and Subject, the Test Code field was removed as extraneous.
 
 ### Coding breakdown
 1. Import required libraries and functions.
 2. Set working directory
 3. Read data
    * Subject data was converted into a numeric value for use in sorting purposes later on.
-4. Set column headings to _Subject_ for stest and strain and _Test  Code_ for the ytest and ytrain dataframes. 
+4. Set column headings to _Subject_ for stest and strain and _TestCode_ for the ytest and ytrain dataframes. 
    * Employed a variable, __k1__ to retain a list of these column names for later column name processing
 5. Column bound the Subject, TestCode and measurement data into a testing and training data sets
 6. Row bound the two datasets together into a single dataset.
